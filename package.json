@@ -1,0 +1,24 @@
+{
+  "name": "authentication-in-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "up": "mkdir -p data && docker-compose up -d",
+    "postup": "npm run dev",
+    "stop": "docker-compose stop",
+    "down": "docker-compose down",
+    "dev": "npm run dev -prefix api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sixnames/authentication-in-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sixnames/authentication-in-node/issues"
+  },
+  "homepage": "https://github.com/sixnames/authentication-in-node#readme"
+}
